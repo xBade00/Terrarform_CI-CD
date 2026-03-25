@@ -9,7 +9,7 @@ terraform {
 
   backend "s3" {
     bucket = "2026-03-25-bs-pl"
-    key    = "app/terraform.tfstate" # Key könnt ihr selbst bestimmen, sollte nur über die deployments einheitlich sein
+    key    = "app/terraform.tfstate" # Key könnt ihr selbst bestimmen, sollte nur über die deployments einheitlich sein.
     region = "us-east-1"
   }
 }
